@@ -11,11 +11,11 @@
     <form action="script.php" method="post">
         <p>
         <label for="nome">Nome:</label>
-            <input min="2" max="40" type="text" name="nome">
+            <input type="text" name="nome">
         </p>
         <p>
             <label  for="idade">Idade:</label>
-            <input min="2" max="40" type="number" name="idade">
+            <input type="number" name="idade">
         </p>
         <input type="submit" value="Enviar formulário">
     </form>

@@ -26,6 +26,11 @@
         return;
     }
 
+    if(!is_numeric($idade)) {
+        echo 'O campo idade deve ser um número!';
+        return;
+    }
+
     var_dump($idade);
     var_dump($nome);
 
